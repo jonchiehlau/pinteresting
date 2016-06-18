@@ -11,7 +11,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass'
-
+gem 'devise', '4.1.1'
 
 # gem 'capistrano-rails', group: :development
 
