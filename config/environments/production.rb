@@ -81,7 +81,6 @@ Rails.application.configure do
   #Required for Heroku
   #Note to set this to actual host
   config.action_mailer.default_url_options = { host: 'jlau-pinteresting.herokuapp.com', port: 3000 }
-end
 
   # Sets Paperclip to upload images to Amazon S3
   config.paperclip_defaults = {
@@ -92,4 +91,5 @@ end
       secret_access_key: ENV.fetch('AWS_SECRET_ACCESS_KEY'),
       s3_region: ENV.fetch('AWS_REGION'),
     }
-}
+  }
+end
